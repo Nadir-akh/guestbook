@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>guestbook</title>
+</head>
+<body>
+    <h1>Nadir's guestbook</h1>
+    <form action="/submit-form" method="post">
+        Name:
+        <input type="text" name="name" id="name" required>
+        <br>
+        <br>
+        Email:
+        <input type="text" name="email" id="email" required>
+        <br>
+        <br>
+        Phone:
+        <input type="text" name="phone" id="phone" required>
+        <br>
+        <br>
+        Comment:
+        <input type="text" name="comment" id="comment" required>
+        <br>
+        <br>
+        <input type="submit" value="Add" name="submit" required>
+    </form>
+    <div>GUEST</div>
+</body>
+</html>
